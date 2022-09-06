@@ -1,0 +1,76 @@
+.navbar-item img {
+  max-height: 100%;
+}
+
+html {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #00000081;
+  text-decoration: none;
+}
+
+hr {
+  background: #24272c;
+}
+
+.hero {
+  background: white;
+}
+
+.title,
+.subtitle {
+  color: black;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.subtitle {
+  font-weight: 300;
+  margin-left: 14em;
+  margin-right: 14em;
+}
+
+.title:not(.is-spaced) + .subtitle {
+  margin-top: -0.25em;
+}
+
+.navbar .navbar-item {
+  color: black;
+}
+
+.navbar .navbar-item.is-active {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar .navbar-item:hover {
+  background: transparent;
+  color: rgba(0, 0, 0, 0.575);
+  text-decoration: none;
+}
+
+.blog-posts {
+  min-height: 100vh;
+  background: #fafafa;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+}
+
+.footer {
+  background: white;
+}
